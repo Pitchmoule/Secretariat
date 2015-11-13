@@ -20,4 +20,9 @@ public class FactoryLicence {
 		Licence licence = new Licence(licence1,logiciel1);
 		return licence;
 	}	
+
+	public Licence createMaster(int licence1,Logiciel logiciel1){
+			Licence licence = new Licence(licence1,logiciel1);
+			return licence;
+		}
 }
