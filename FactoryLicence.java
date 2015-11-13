@@ -16,7 +16,7 @@ public class FactoryLicence {
 		return FactoryLicence.factoryLicence;
 	}
 	
-	public Licence createLicence(int licence1,Logiciel logiciel1){
+	public Licence fffffcreateLicence(int licence1,Logiciel logiciel1){
 		Licence licence = new Licence(licence1,logiciel1);
 		return licence;
 	}	
